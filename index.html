@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Java</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Cuestionario de Java</h1>
+        <form id="quiz-form">
+            <!-- Las preguntas se insertarán aquí desde JavaScript -->
+        </form>
+        <label for="name">Nombre Completo:</label>
+        <input type="text" name="name" id="name" placeholder="Nombre Completo" required />
+
+        <button onclick="submitQuiz()">Enviar Respuestas</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
